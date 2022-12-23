@@ -1,1 +1,73 @@
 
+body{
+  background-image: linear-gradient(to right, rgba(207, 235, 155, 0), rgb(207, 240, 117), rgb(35, 89, 236));
+}
+
+.imgbg {
+  background-image: url('test.jpg');
+  background-repeat:repeat-x;
+}
+
+.gg{
+  background-image: url('test5.jpg');
+  background-repeat:repeat-x;
+}
+.bb{
+  background-color: transparent;
+}
+
+.bgmenu{
+  background: rgba(66, 65, 65, 0.8);
+  color: rgb(235, 227, 227);
+  box-shadow: #f7cb06;
+}
+
+.bgmenu span {
+  font-family: 'Chela One', cursive;
+  font-size: 30px !important;
+  color: #e9eff3;
+  text-align: center;
+}
+
+.bgmenu .styleTitle {
+  font-size: 32px !important;
+  color: #c8f30a;
+}
+
+.bgmenu .styleTitl {
+  font-size: 32px !important;
+  color: #0804e4;
+}
+
+.bgmenu a {
+  color: #f2f4f5;
+}
+
+.bgmenu a:hover {
+  color: rgb(0, 0, 0);
+  
+}
+
+.bg-element {
+  background: #B5E6EC;
+  color: #005573;
+}
+
+#map, #map2 {
+  width: 100%;
+  height: 300px;
+  background-color: grey;
+ }
+
+.bgfooter {
+    background: rgb(221, 221, 221);
+    margin: 10px 80px;
+}
+
+.bgfooter a {
+  color: #005573;
+}
+
+.bgfooter a:hover {
+  color: #000;
+}
