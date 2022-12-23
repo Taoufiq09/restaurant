@@ -1,1 +1,113 @@
 
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="Description" content="Ice, glacier sur Bruxelles">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#317EFB" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Chela+One" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="favicon.png" />
+  <title>Brazil Food</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="jumbotron imgbg">
+      <nav class="navbar navbar-expand-md flex-nowrap bgmenu">
+        <button class="navbar-toggler mr-2" type="button" name="menu-app" data-toggle="collapse" data-target="#navbar5">
+          <i class="fas fa-align-center" style="color:#005573;"></i>
+        </button>
+        <span class="navbar-brand w-100"><span class="styleTitle">B</span>razil <span class="styleTitl">F</span>ood</span>
+        <div class="navbar-collapse collapse w-100 justify-content-center" id="navbar5">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="&carte.html">Carte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="photo.html">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="restaurants.html">Restaurants</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="&contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="w-100"> </div>
+      </nav>
+    </div>
+
+    <div class="jumbotron gg">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card border-primary mb-3 bb" style="max-width: 25rem;">
+            <div class="card-header bg-element">NEWS</div>
+            <div class="card-body text-dark ">
+              <h5 class="card-title">Nouvel établissement.</h5>
+              <img class="card-img-top" src="test1.jpg" alt="Card image cap">
+              <p class="card-text">Nous allons ouvrir un nouvel établissement à Bruxelles, pour l'ouverture, reduction sur
+                nos produits de 20%.</p>
+            </div>
+            <div class="card-body text-dark">
+              <h5 class="card-title">Benvenuti Nel Nostro Ristorante</h5>
+              <img class="card-img-top" src="test2.jpg" alt="Card image cap">
+              <p class="card-text">GOÛTEZ LES DÉLICEUSES PÂTES FRAÎCHES RÉALISÉES CHAQUE JOUR
+                DANS LE RESPECT DE LA TRADITION ITALIENNE PAR NOTRE CHEF</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card border-primary mb-3 bb" style="max-width: 25rem;">
+            <div class="card-header bg-element">PROMOTIONS</div>
+            <div class="card-body text-dark">
+              <h5 class="card-title">Pour l'ouverture de notre établissement à Bruxelles</h5>
+              <img class="card-img-top" src="test3.jpg" alt="Card image cap">
+              <p class="card-text">Reduction de 20% sur toutes nos pates.</p>
+            </div>
+          </div>
+          <div class="card border-primary mb-3 bb" style="max-width: 25rem;">
+            <div class="card-header bg-element">ÉVÈNEMENTS</div>
+            <div class="card-body text-dark">
+              <h5 class="card-title">Les glaces Avengers</h5>
+              <img class="card-img-top" src="test4.jpg" alt="Card image cap">
+              <p class="card-text">Les glaces Avengers arrivents dans nos établissements.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-copyright text-center py-3 bgfooter">© 2022 Copyright:
+    <a href="#"> TaoufiqFood.com</a>
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('./service-worker.js')
+        .then(function () { console.log('Service Worker Registered'); });
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
